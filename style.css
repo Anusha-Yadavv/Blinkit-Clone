@@ -312,6 +312,24 @@ td {
     width: 100%;
 }
 
+.made-by-section {
+    background-color: #eeeeee;
+    border: 1px solid #f3f3f3;
+    height: 60px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons i:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+
+
+}
+
+
+
 @media screen and (max-width:768px) {
     nav {
         flex-direction: column;
@@ -374,6 +392,11 @@ td {
     }
 
 
+    .made-by-section p {
+        font-size: 12px;
+    }
+
+
 }
 
 @media screen and (min-width:768px) {
@@ -408,5 +431,23 @@ td {
 
     100% {
         transform: rotate(0deg);
+    }
+}
+
+.heart {
+    animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #cced00, 0 0 20px #cced00a8, 0 0 20px #cced00, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
     }
 }
