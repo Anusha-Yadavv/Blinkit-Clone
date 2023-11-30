@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#vertical_line {
+    height: 70px;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+#nav_delivery>h5 {
+    margin: 0px;
+    font-weight: 800;
+}
+
+#nav_delivery:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+    cursor: pointer;
+
+}
+
+#nav_delivery>p {
+    margin: 0px;
+}
+
+#nav_logo:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+
+
+}
+
+.login_button:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+    background-color: #fdfbfb;
+    cursor: pointer;
+
+}
+
+
+#search_div {
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: 40vw;
+}
+
+#search_div>input {
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    height: 45px;
+}
+
+
+
+.searchbar-container {
+    width: 750px;
+    height: 50px;
+    cursor: text;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    background: rgb(243, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-icon {
+    height: 30px;
+    padding-left: 20px;
+}
+
+.mycart-button-container {
+    width: 120px;
+    height: 55px;
+    background-color: rgb(12, 131, 31);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mycart-button-container svg {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.location-title {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.location-subtitle {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.login-container {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+.top-section img {
+    width: 100%;
+
+}
+
+.cards-section {
+    width: 79vw;
+    margin: auto;
+}
+
+.scrollable_div {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+
+.scrollable-div>img {
+    display: inline-block;
+}
+
+#categories-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#categories-section>img {
+    height: 188px;
+    width: 128px;
+}
+
+#categories-section>img:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+
+}
+
+.products-heading {
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+.see-all-heading {
+    line-height: 32px;
+    font-size: 20px;
+    color: rgb(12, 131, 31);
+}
+
+.category-img {
+    display: block;
+    height: 140px;
+    width: 140px;
+    margin: auto;
+}
+
+.my-card {
+    height: 290px;
+    width: 200px;
+    display: inline-block !important;
+    margin-right: 20px;
+    margin-top: 20px;
+    white-space: nowrap;
+    transition: 0.1;
+}
+
+.my-card:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+
+}
+
+.time-div {
+    background-color: #f8f8f8;
+    width: fit-content;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-inline: 5px;
+}
+
+.time-img {
+    height: 25px;
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.product-weight {
+    color: #6a6a6a;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.offer-section {
+    color: rgb(202, 35, 35);
+    font-weight: 800;
+}
+
+#footer_r1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+#footer_table1 {
+    flex: 2;
+}
+
+#footer_table2 {
+    flex: 3;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+
+#footer_r2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_r2>p {
+    width: 40%;
+    font-size: 15px;
+    text-align: justify;
+    color: #6a6a6a;
+    margin: 0px;
+}
+
+#social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#social-links>div:hover {
+    transform: scale(1.1) translate(-8%, -3%);
+
+}
+
+#downloads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#downloads>p {
+    margin: 0px;
+    padding: 0px;
+    color: #6a6a6a;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#downloads>img {
+    margin: 10px;
+}
+
+.social_icon {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    margin-inline: 10px;
+    font-size: 25px;
+}
+
+#footer_r3 {
+    font-size: 15px;
+    text-align: justify;
+    color: #6a6a6a;
+}
+
+.mobile-view-img {
+
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #nav_delivery {
+        text-align: center;
+    }
+
+    #vertical_line {
+        display: none;
+    }
+
+    #search_div {
+        width: 90vw;
+    }
+
+    #search_div>input {
+        width: auto;
+    }
+
+    #hero_section {
+        display: none !important;
+    }
+
+    .cards_section {
+        margin-top: 30px !important;
+    }
+
+    #footer_r1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer_table1,
+    #footer_table2 {
+        width: 100%;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    #footer_r2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer_r2>p {
+        width: 100%;
+    }
+
+    #social-links {
+        margin-bottom: 20px;
+    }
+
+    #downloads>p {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    #mobile-view-contianer {
+        display: none !important;
+    }
+
+}
+
+.my_cart_icon {
+    animation: tilt-shaking 0.3s infinite;
+
+}
+
+
+@keyframes tilt-shaking {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0eg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
