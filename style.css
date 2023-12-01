@@ -395,8 +395,8 @@ td a {
 @media screen and (max-width:768px) {
     nav {
         flex-direction: column;
-        padding: 10px;
     }
+
 
     #nav_logo {
         display: none !important;
@@ -412,24 +412,29 @@ td a {
 
 
     .mobile_navbar {
+        width: 100%;
         display: flex;
-        gap: 120px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        justify-content: space-around;
+        margin: 20px;
+        padding-right: 10px;
     }
 
+    .logo svg {
+        height: 30px;
 
+    }
 
     #nav_delivery h5 {
-        font-size: 15px;
-    }
-
-    #nav_delivery p {
         font-size: 13px;
     }
 
+    #nav_delivery p {
+        font-size: 12px;
+    }
 
-
+    .user_profile {
+        padding-left: 4px;
+    }
 
     #vertical_line {
         display: none;
@@ -513,6 +518,10 @@ td a {
     }
 
     .user_profile {
+        display: none !important;
+    }
+
+    .mobile_navbar a {
         display: none !important;
     }
 }
