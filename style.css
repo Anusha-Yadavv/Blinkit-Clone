@@ -5,6 +5,13 @@
     padding: 0px;
 }
 
+header {
+    position: sticky;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+}
+
 #vertical_line {
     height: 70px;
     border: 1px solid rgb(231, 231, 231);
@@ -391,9 +398,38 @@ td a {
         padding: 10px;
     }
 
-    #nav_delivery {
-        text-align: center;
+    #nav_logo {
+        display: none !important;
     }
+
+    .login_button {
+        display: none !important;
+    }
+
+    .my_cart_button {
+        display: none !important;
+    }
+
+
+    .mobile_navbar {
+        display: flex;
+        gap: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+    #nav_delivery h5 {
+        font-size: 15px;
+    }
+
+    #nav_delivery p {
+        font-size: 13px;
+    }
+
+
+
 
     #vertical_line {
         display: none;
@@ -473,6 +509,10 @@ td a {
 
 @media screen and (min-width:768px) {
     #mobile-view-contianer {
+        display: none !important;
+    }
+
+    .user_profile {
         display: none !important;
     }
 }
